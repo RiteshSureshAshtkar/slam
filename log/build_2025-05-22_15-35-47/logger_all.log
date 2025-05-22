@@ -1,0 +1,123 @@
+[0.270s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.270s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75712d06e7e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75712d06e3f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75712d06e3f0>>, mixin_verb=('build',))
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.370s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/davinci/ros2_ws'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ignition_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ignition_robot) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ignition_robot) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ignition_robot) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ignition_robot) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ignition_robot) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ignition_robot) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ignition_robot) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ignition_robot) by extension 'ros'
+[0.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ignition_robot' with type 'ros.ament_cmake' and name 'ignition_robot'
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.513s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/davinci/ros2_ws/install
+[0.517s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 312 installed packages in /opt/ros/jazzy
+[0.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'ignition_robot' build argument 'cmake_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ignition_robot' build argument 'cmake_target' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ignition_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ignition_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ignition_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ignition_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ignition_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ignition_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ignition_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.605s] DEBUG:colcon.colcon_core.verb:Building package 'ignition_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/davinci/ros2_ws/build/ignition_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/davinci/ros2_ws/install/ignition_robot', 'merge_install': False, 'path': '/home/davinci/ros2_ws/src/ignition_robot', 'symlink_install': True, 'test_result_base': None}
+[0.606s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.609s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.609s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/davinci/ros2_ws/src/ignition_robot' with build type 'ament_cmake'
+[0.609s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/davinci/ros2_ws/src/ignition_robot'
+[0.615s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.616s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci/ros2_ws/build/ignition_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/ros2_ws/build/ignition_robot -- -j8 -l8
+[3.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci/ros2_ws/build/ignition_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/ros2_ws/build/ignition_robot -- -j8 -l8
+[3.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci/ros2_ws/build/ignition_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/davinci/ros2_ws/build/ignition_robot
+[3.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci/ros2_ws/build/ignition_robot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/davinci/ros2_ws/build/ignition_robot
+[3.718s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ignition_robot)
+[3.722s] Level 1:colcon.colcon_core.environment:checking '/home/davinci/ros2_ws/install/ignition_robot' for CMake module files
+[3.723s] Level 1:colcon.colcon_core.environment:checking '/home/davinci/ros2_ws/install/ignition_robot' for CMake config files
+[3.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('ignition_robot', 'cmake_prefix_path')
+[3.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/hook/cmake_prefix_path.ps1'
+[3.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/hook/cmake_prefix_path.dsv'
+[3.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/hook/cmake_prefix_path.sh'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/davinci/ros2_ws/install/ignition_robot/lib'
+[3.736s] Level 1:colcon.colcon_core.environment:checking '/home/davinci/ros2_ws/install/ignition_robot/bin'
+[3.736s] Level 1:colcon.colcon_core.environment:checking '/home/davinci/ros2_ws/install/ignition_robot/lib/pkgconfig/ignition_robot.pc'
+[3.737s] Level 1:colcon.colcon_core.environment:checking '/home/davinci/ros2_ws/install/ignition_robot/lib/python3.12/site-packages'
+[3.739s] Level 1:colcon.colcon_core.environment:checking '/home/davinci/ros2_ws/install/ignition_robot/bin'
+[3.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/package.ps1'
+[3.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/package.dsv'
+[3.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/package.sh'
+[3.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/package.bash'
+[3.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/package.zsh'
+[3.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci/ros2_ws/install/ignition_robot/share/colcon-core/packages/ignition_robot)
+[3.763s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.764s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.765s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.766s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.783s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.783s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.783s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.821s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.822s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/davinci/ros2_ws/install/local_setup.ps1'
+[3.823s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/davinci/ros2_ws/install/_local_setup_util_ps1.py'
+[3.825s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/davinci/ros2_ws/install/setup.ps1'
+[3.827s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/davinci/ros2_ws/install/local_setup.sh'
+[3.828s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/davinci/ros2_ws/install/_local_setup_util_sh.py'
+[3.831s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/davinci/ros2_ws/install/setup.sh'
+[3.834s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/davinci/ros2_ws/install/local_setup.bash'
+[3.836s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/davinci/ros2_ws/install/setup.bash'
+[3.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/davinci/ros2_ws/install/local_setup.zsh'
+[3.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/davinci/ros2_ws/install/setup.zsh'

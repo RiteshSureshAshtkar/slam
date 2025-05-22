@@ -1,0 +1,4 @@
+source;share/ignition_robot/local_setup.bash
+source;share/ignition_robot/local_setup.dsv
+source;share/ignition_robot/local_setup.sh
+source;share/ignition_robot/local_setup.zsh

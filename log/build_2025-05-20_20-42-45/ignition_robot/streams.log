@@ -1,0 +1,37 @@
+[0.010s] Invoking command in '/home/davinci/ros2_ws/build/ignition_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/ros2_ws/build/ignition_robot -- -j8 -l8
+[0.037s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.358s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.369s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.450s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.469s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.514s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.608s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.612s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.717s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.748s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.860s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.900s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.929s] -- Found tf2: 0.36.10 (/opt/ros/jazzy/share/tf2/cmake)
+[0.936s] -- Found tf2_ros: 0.36.10 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.093s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.093s]   By not providing "Findgazebo_ros.cmake" in CMAKE_MODULE_PATH this project
+[1.094s]   has asked CMake to find a package configuration file provided by
+[1.094s]   "gazebo_ros", but CMake did not find one.
+[1.094s] 
+[1.094s]   Could not find a package configuration file provided by "gazebo_ros" with
+[1.094s]   any of the following names:
+[1.094s] 
+[1.094s]     gazebo_rosConfig.cmake
+[1.094s]     gazebo_ros-config.cmake
+[1.094s] 
+[1.094s]   Add the installation prefix of "gazebo_ros" to CMAKE_PREFIX_PATH or set
+[1.094s]   "gazebo_ros_DIR" to a directory containing one of the above files.  If
+[1.094s]   "gazebo_ros" provides a separate development package or SDK, be sure it has
+[1.094s]   been installed.
+[1.094s] 
+[1.095s] [0m
+[1.095s] -- Configuring incomplete, errors occurred!
+[1.100s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.102s] Invoked command in '/home/davinci/ros2_ws/build/ignition_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/ros2_ws/build/ignition_robot -- -j8 -l8

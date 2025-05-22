@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/launch/complete.launch.py
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/launch/display.launch.py
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/launch/gazebo.launch.py
+-- Symlinking: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/launch/tf.launch.py
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/urdf/ignbot.urdf
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/worlds/empty_world.world
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/config/ignbot.rviz
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ament_index/resource_index/package_run_dependencies/ignition_robot
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ament_index/resource_index/parent_prefix_path/ignition_robot
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/environment/path.sh
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/environment/path.dsv
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/local_setup.bash
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/local_setup.sh
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/local_setup.zsh
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/local_setup.dsv
+-- Symlinking: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/package.dsv
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ament_index/resource_index/packages/ignition_robot
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/cmake/ignition_robotConfig.cmake
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/cmake/ignition_robotConfig-version.cmake
+-- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/package.xml

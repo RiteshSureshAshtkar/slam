@@ -1,0 +1,1 @@
+/home/davinci/ros2_ws/build/ignition_robot/ament_cmake_core/ignition_robotConfig-version.cmake

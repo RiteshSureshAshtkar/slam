@@ -1,0 +1,9 @@
+/home/davinci/ros2_ws/build/ignition_robot/CMakeFiles/uninstall.dir
+/home/davinci/ros2_ws/build/ignition_robot/CMakeFiles/ignition_robot_uninstall.dir
+/home/davinci/ros2_ws/build/ignition_robot/CMakeFiles/test.dir
+/home/davinci/ros2_ws/build/ignition_robot/CMakeFiles/edit_cache.dir
+/home/davinci/ros2_ws/build/ignition_robot/CMakeFiles/rebuild_cache.dir
+/home/davinci/ros2_ws/build/ignition_robot/CMakeFiles/list_install_components.dir
+/home/davinci/ros2_ws/build/ignition_robot/CMakeFiles/install.dir
+/home/davinci/ros2_ws/build/ignition_robot/CMakeFiles/install/local.dir
+/home/davinci/ros2_ws/build/ignition_robot/CMakeFiles/install/strip.dir

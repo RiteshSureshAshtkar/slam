@@ -1,0 +1,75 @@
+[0.012s] Invoking command in '/home/davinci/ros2_ws/build/ignition_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/ros2_ws/build/ignition_robot -- -j8 -l8
+[0.040s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.304s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.313s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.356s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.369s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.380s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.393s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.455s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.456s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.526s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.588s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.619s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.642s] -- Found tf2: 0.36.10 (/opt/ros/jazzy/share/tf2/cmake)
+[0.646s] -- Found tf2_ros: 0.36.10 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.754s] -- Found ros_gz_bridge: 1.0.11 (/opt/ros/jazzy/share/ros_gz_bridge/cmake)
+[0.761s] -- Looking for gz-msgs10 -- found version 10.3.2
+[0.766s] -- Searching for dependencies of gz-msgs10
+[0.785s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.785s] -- Searching for dependencies of gz-utils2
+[0.786s] -- Looking for gz-math7 -- found version 7.5.2
+[0.786s] -- Searching for dependencies of gz-math7
+[0.786s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.792s] -- Checking for module 'tinyxml2'
+[0.808s] --   Found tinyxml2, version 10.0.0
+[0.856s] -- Looking for gz-transport13 -- found version 13.4.1
+[0.856s] -- Searching for dependencies of gz-transport13
+[0.902s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.908s] -- Checking for module 'libzmq >= 4'
+[0.928s] --   Found libzmq, version 4.3.5
+[1.005s] -- Checking for module 'uuid'
+[1.034s] --   Found uuid, version 2.39.3
+[1.090s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.091s] -- Searching for dependencies of gz-utils2
+[1.091s] -- Searching for <gz-utils2> component [cli]
+[1.092s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[1.093s] -- Searching for dependencies of gz-utils2-cli
+[1.095s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.261s] -- Found ros_gz_sim: 1.0.11 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[1.263s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.382s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.383s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.383s] -- Added test 'lint_cmake' to check CMake code style
+[1.384s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.385s] -- Added test 'xmllint' to check XML markup files
+[1.387s] -- Configuring done (1.4s)
+[1.398s] -- Generating done (0.0s)
+[1.407s] -- Build files have been written to: /home/davinci/ros2_ws/build/ignition_robot
+[1.461s] Invoked command in '/home/davinci/ros2_ws/build/ignition_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/ros2_ws/build/ignition_robot -- -j8 -l8
+[1.484s] Invoking command in '/home/davinci/ros2_ws/build/ignition_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/davinci/ros2_ws/build/ignition_robot
+[1.500s] -- Install configuration: ""
+[1.500s] -- Execute custom install script
+[1.501s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/launch/complete.launch.py
+[1.501s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/launch/display.launch.py
+[1.502s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/launch/gazebo.launch.py
+[1.502s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/launch/tf.launch.py
+[1.502s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/urdf/ignbot.urdf
+[1.503s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/worlds/empty_world.world
+[1.503s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/config/ignbot.rviz
+[1.504s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ament_index/resource_index/package_run_dependencies/ignition_robot
+[1.504s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ament_index/resource_index/parent_prefix_path/ignition_robot
+[1.504s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/environment/ament_prefix_path.sh
+[1.505s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/environment/ament_prefix_path.dsv
+[1.505s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/environment/path.sh
+[1.506s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/environment/path.dsv
+[1.506s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/local_setup.bash
+[1.507s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/local_setup.sh
+[1.507s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/local_setup.zsh
+[1.508s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/local_setup.dsv
+[1.508s] -- Symlinking: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/package.dsv
+[1.524s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ament_index/resource_index/packages/ignition_robot
+[1.524s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/cmake/ignition_robotConfig.cmake
+[1.524s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/cmake/ignition_robotConfig-version.cmake
+[1.524s] -- Up-to-date symlink: /home/davinci/ros2_ws/install/ignition_robot/share/ignition_robot/package.xml
+[1.527s] Invoked command in '/home/davinci/ros2_ws/build/ignition_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/davinci/ros2_ws/build/ignition_robot
